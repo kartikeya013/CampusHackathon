@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context=".LoginPage">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/login"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="230dp"
+        android:onClick="loginbutton"
+        android:src="@drawable/login"
+        android:scaleType="fitXY"/>
+
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+android:textAlignment="center"
+        android:inputType="text"
+        android:textSize="25dp"
+android:layout_marginRight="100dp"
+         />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="100dp"
+        android:textSize="25dp"
+android:textAlignment="center"
+        android:inputType="textWebPassword"
+         />
+
+</RelativeLayout>
