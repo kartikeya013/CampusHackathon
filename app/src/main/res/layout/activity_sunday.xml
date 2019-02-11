@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sunday">
-    <ImageView
+    tools:context=".sunday"
+    android:background="#FFFFFF">    <ImageView
         android:layout_width="350dp"
         android:layout_height="430dp"
         android:background="@drawable/sunday"

@@ -6,84 +6,108 @@
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
     android:orientation="vertical"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    android:background="#FFFFFF">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:onClick="monday"
-        android:text="Monday"
-        android:textSize="40dp"
         android:layout_weight="1"
+        android:src="@drawable/monday1"
+        android:scaleType="fitXY"
+        android:background="@null"
         />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="tuesday"
-        android:text="Tuesday"
-        android:textSize="40dp"
-        android:layout_weight="1"
-       />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="tuesday"
+            android:layout_weight="1"
+            android:src="@drawable/tuesday1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="1.0">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="wednesday"
+            android:layout_weight="1"
+            android:src="@drawable/wed1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
 
-    <Button
-        android:id="@+id/wed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="wednesday"
-        android:text="Wednesday"
-        android:textSize="40dp"
-        android:layout_weight="1"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="thursday"
-        android:text="Thursday"
-        android:textSize="40dp"
-        android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="thursday"
+            android:layout_weight="1"
+            android:src="@drawable/thursday1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="friday"
-        android:text="Friday"
-        android:textSize="40dp"
-        android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_weight="1.0">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="saturday"
-        android:text="Saturday"
-        android:textSize="40dp"
-        android:layout_weight="1"/>
-        </LinearLayout>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="friday"
+            android:layout_weight="1.0"
+            android:src="@drawable/friday1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
 
-    <Button
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="saturday"
+            android:layout_weight="1.0"
+            android:src="@drawable/saturday1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.00"
+    android:orientation="horizontal">
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="fill_horizontal"
+        android:layout_weight="0.25"/>
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:onClick="sunday"
-        android:text="Sunday"
-        android:textSize="40dp"
-        android:layout_weight="1"/>
+        android:src="@drawable/sunday1"
+        android:scaleType="fitXY"
+        android:layout_weight="0.5"
+        android:background="@null"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="fill_horizontal"
+        android:layout_weight="0.25"/>
 </LinearLayout>
+      </LinearLayout>

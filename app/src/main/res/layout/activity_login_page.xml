@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
-    tools:context=".LoginPage">
+    tools:context=".LoginPage"
+    android:background="#FFFFFF"
+    >
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
@@ -21,7 +23,8 @@
         android:layout_marginRight="230dp"
         android:onClick="loginbutton"
         android:src="@drawable/login"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@null"/>
 
 
     <EditText
